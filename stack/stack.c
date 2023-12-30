@@ -1,7 +1,8 @@
 /*
     Author: Bryce Calhoun
     Description: Program implements a stack abstract data type using a
-                 singly linked list allocated on the heap.
+                 singly linked list allocated on the heap. Operations: create,
+                 push, and pop.
 */
 #include <stdio.h>
 #include <stdlib.h>

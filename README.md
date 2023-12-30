@@ -2,17 +2,17 @@
                                                       
 description: This repository will be used to store various data strcutres 
              that I use for other projects and things I make.
+--------------------------------------------------------------------------
 
 
 
 table of contents:
-
-  binary search trees
+-------------------------------------------
+  binary search trees->
   language(s):
     c++
       
-  stacks
+  stacks->
   language(s):
     c
-
-  ... (more)
+--------------------------------------------

@@ -16,4 +16,10 @@ table of contents:
   language(s):
     c, python
     
+  Linked Lists->
+    Doubly->
+    language(s):
+    python
+    
+    
 --------------------------------------------

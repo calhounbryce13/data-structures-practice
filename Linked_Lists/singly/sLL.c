@@ -2,7 +2,7 @@
 Author: Bryce Calhoun
 Description: Singly-Linked list implementation using malloc() to allocate memory on 
              the heap and free() to de-allocate memory. Operations: Insert, Remove, Search
-             display(forward), Delete list.
+             Display(forward), Delete list.
              
 */
 

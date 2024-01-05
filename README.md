@@ -17,6 +17,10 @@ table of contents:
     c, python
     
   Linked Lists->
+    Singly->
+    language(s):
+    c
+    
     Doubly->
     language(s):
     python

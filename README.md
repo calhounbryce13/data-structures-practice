@@ -10,18 +10,18 @@ table of contents:
 -------------------------------------------
   binary search trees->
   language(s):
-    c++
+    [c++]
       
   stacks->
   language(s):
-    c, python
+    [c, python]
     
   Linked Lists->
     Singly->
     language(s):
-    c
+    [c]
     Doubly->
     language(s):
-    python
+    [python]
     
 --------------------------------------------

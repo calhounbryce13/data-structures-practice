@@ -20,7 +20,6 @@ table of contents:
     Singly->
     language(s):
     c
-    
     Doubly->
     language(s):
     python

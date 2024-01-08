@@ -8,12 +8,12 @@ description: This repository will be used to store various data strcutres
 
 table of contents:
 -------------------------------------------
-  binary search trees->
+  Binary Search Trees->
   
   language(s):
     [c++]
       
-  stacks->
+  Stacks->
   
   language(s):
     [c, python]
@@ -24,6 +24,7 @@ table of contents:
     
   language(s):
   [c]
+  
   Doubly->
   
   language(s):

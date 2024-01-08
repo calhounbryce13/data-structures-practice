@@ -20,7 +20,7 @@ table of contents:
     
   Linked Lists->
   
-    Singly->
+  Singly->
     
     language(s):
     [c]

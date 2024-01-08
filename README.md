@@ -14,14 +14,18 @@ table of contents:
     [c++]
       
   stacks->
+  
   language(s):
     [c, python]
     
   Linked Lists->
+  
     Singly->
+    
     language(s):
     [c]
     Doubly->
+    
     language(s):
     [python]
     

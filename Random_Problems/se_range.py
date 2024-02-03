@@ -1,7 +1,7 @@
 
 def se_range(start: int, end: int):
     """
-    DESCRIPTION: Function to take an input an integer start value and
+    DESCRIPTION: Function to take as input an integer start value and
                  an integer end value. Function will then create and return
                  a list with all the values in between inclusively.
 

@@ -1,7 +1,7 @@
 
 """
 Author: Bryce Calhoun
-Description: Implementation of a stack ADT. operations: push, pop, peek, isempty.
+Description: Stack ADT. operations: push, pop, peek, isempty.
 """
 # I know that the accessors and mutators are not necessary for python, but I like to
 # use them consistently in OOP languages.

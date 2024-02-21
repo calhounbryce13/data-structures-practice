@@ -27,8 +27,6 @@ class Node:
         self._next = node
 
     def get_next(self):
-        if self._next is None:
-            raise NodeException("NO NEXT NODE")
         return self._next
 
 
@@ -55,6 +53,11 @@ class singlyLL():
             return True
         return False
 
+    def get_front(self):
+        if self.is_empty():
+            raise singlyLLException("EMPTY LIST")
+        return self._headSentinel.get_next().get_value()
+
     def insert_front(self, value):
         """
         DESCRIPTION: Function to insert a value in the front of the list just
@@ -75,7 +78,7 @@ class singlyLL():
     def remove_front(self) -> object:
         """
         DESCRIPTION: Function to remove a value from the front of the list just
-                     after the head sentinel
+                     after the head sentinel and return it
         """
         if self.is_empty():
             raise singlyLLException("EMPTY LIST")

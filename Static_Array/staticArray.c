@@ -16,6 +16,10 @@ struct StaticArray* create_array(int cap){
     /*
     Description: Function to allocate memory for a static array structre and return a pointer to it
     */
+    if(cap <= 0){
+        printf("NO NEGATIVE CAPACITY");
+        return NULL;
+    }
     struct StaticArray* array = malloc(sizeof(struct StaticArray));
     array->capacity = cap;
     array->array = malloc(sizeof(void*) * (array->capacity));

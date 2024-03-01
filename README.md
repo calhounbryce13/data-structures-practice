@@ -16,7 +16,6 @@ table of contents:
   Queue->
 
   language(s):
-
     [c]
       
   Stack->
@@ -39,13 +38,11 @@ table of contents:
   Dynamic Array->
 
   language(s):
-
     [python]
 
   Static Array->
 
   language(s):
-
     [python]
 
 

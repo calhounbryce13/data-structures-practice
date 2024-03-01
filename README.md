@@ -12,6 +12,12 @@ table of contents:
   
   language(s):
     [c++]
+
+  Queue->
+
+  language(s):
+
+    [c]
       
   Stack->
   
@@ -23,24 +29,24 @@ table of contents:
   Singly->
     
   language(s):
-  [c, python]
+    [c, python]
   
   Doubly->
   
   language(s):
-  [python]
+    [python]
 
   Dynamic Array->
 
   language(s):
 
-  [python]
+    [python]
 
   Static Array->
 
   language(s):
 
-  [python]
+    [python]
 
 
     

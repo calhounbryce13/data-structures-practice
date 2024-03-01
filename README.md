@@ -23,7 +23,7 @@ table of contents:
   Singly->
     
   language(s):
-  [c]
+  [c, python]
   
   Doubly->
   

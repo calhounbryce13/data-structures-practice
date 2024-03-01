@@ -1,3 +1,8 @@
+/*
+**    Author:Bryce Calhoun
+**    Description: Implementation of a static array object with simple get and set operations.
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 

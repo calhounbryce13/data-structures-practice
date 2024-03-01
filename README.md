@@ -8,17 +8,17 @@ description: This repository will be used to store various data strcutres
 
 table of contents:
 -------------------------------------------
-  Binary Search Trees->
+  Binary Search Tree->
   
   language(s):
     [c++]
       
-  Stacks->
+  Stack->
   
   language(s):
     [c, python]
     
-  Linked Lists->
+  Linked List->
   
   Singly->
     
@@ -28,6 +28,18 @@ table of contents:
   Doubly->
   
   language(s):
+  [python]
+
+  Dynamic Array->
+
+  language(s):
+
+  [python]
+
+  Static Array->
+
+  language(s):
+
   [python]
 
 

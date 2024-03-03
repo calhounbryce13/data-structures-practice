@@ -90,11 +90,6 @@ class binary_search_tree{
 
 };
 
-int main(){
-    
-    
-
-}
 
 void binary_search_tree::insert(int value){
     /*

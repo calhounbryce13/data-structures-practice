@@ -8,27 +8,42 @@ description: This repository will be used to store various data strcutres
 
 table of contents:
 -------------------------------------------
-  Binary Search Trees->
+  Binary Search Tree->
   
   language(s):
     [c++]
+
+  Queue->
+
+  language(s):
+    [c]
       
-  Stacks->
+  Stack->
   
   language(s):
     [c, python]
     
-  Linked Lists->
+  Linked List->
   
   Singly->
     
   language(s):
-  [c]
+    [c, python]
   
   Doubly->
   
   language(s):
-  [python]
+    [python]
+
+  Dynamic Array->
+
+  language(s):
+    [python]
+
+  Static Array->
+
+  language(s):
+    [python]
 
 
     

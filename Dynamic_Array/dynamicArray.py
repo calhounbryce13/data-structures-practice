@@ -4,7 +4,6 @@
 """
 
 from staticArray import *
-import random
 
 class Dynamic_Array_Exception(Exception):
 
@@ -13,14 +12,14 @@ class Dynamic_Array_Exception(Exception):
 
 class Dynamic_Array:
 
-    def __init__(self):
+    def __init__(self, capacity=10):
 
         """
         Initializing a size of 0, a starting capacity of 10 and a
         static array with the capacity as its capacity.
         """
         self._size = 0
-        self._capacity = 10
+        self._capacity = capacity
         self._data = Static_Array(self._capacity)
 
     def get_size(self):
@@ -164,5 +163,62 @@ class Dynamic_Array:
                     maxVal = self._data.get_at_index(x)
 
         return maxVal
+
+    def print_array(self):
+        if self.is_empty():
+            raise Dynamic_Array_Exception("EMPTY ARRAY")
+        print("\n---------------------------------------\n")
+
+        for x in range(self._size):
+            print(self._data.get_at_index(x), " ")
+
+        print("\n---------------------------------------\n")
+        return
+
+def mergesort(array: Dynamic_Array) -> Dynamic_Array:
+    """
+    Function will recursively split a given dynamic array in half
+    """
+    if array.get_size() == 1:
+        return array
+
+    size = array.get_size() // 2
+    arr1 = Dynamic_Array(size)
+    arr2 = Dynamic_Array(size - arr1.get_size())
+
+
+    for i in range(array.get_size()):
+        if i >= arr1.get_capacity():
+            arr2.append(array.get_at_index(i))
+        else:
+            arr1.append(array.get_at_index(i))
+
+    arr1 = mergesort(arr1)
+    arr2 = mergesort(arr2)
+
+    return merge(arr1, arr2)
+
+def merge(arr1: Dynamic_Array, arr2: Dynamic_Array) -> Dynamic_Array():
+    """
+    Function will merge two sorted arrays together and return the result
+    """
+    newArr = Dynamic_Array()
+    while arr1.get_size() > 0 and arr2.get_size() > 0:
+        if arr1.get_at_index(0) > arr2.get_at_index(0):
+            newArr.append(arr2.get_at_index(0))
+            arr2.remove_from_index(0)
+        else:
+            newArr.append(arr1.get_at_index(0))
+            arr1.remove_from_index(0)
+    while arr1.get_size() > 0:
+        newArr.append(arr1.get_at_index(0))
+        arr1.remove_from_index(0)
+
+    while arr2.get_size() > 0:
+        newArr.append(arr2.get_at_index(0))
+        arr2.remove_from_index(0)
+
+    return newArr
+
 
 

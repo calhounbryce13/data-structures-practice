@@ -43,7 +43,7 @@ table of contents:
   Static Array->
 
   language(s):
-    [python]
+    [python, c, c++]
 
 
     

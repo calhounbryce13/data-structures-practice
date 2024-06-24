@@ -16,7 +16,7 @@ table of contents:
   Queue->
 
   language(s):
-    [c]
+    [c, python]
       
   Stack->
   

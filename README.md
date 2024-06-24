@@ -33,7 +33,7 @@ table of contents:
   Doubly->
   
   language(s):
-    [python]
+    [python, java]
 
   Dynamic Array->
 

@@ -11,9 +11,9 @@
 
 struct Node{
     /*
-    Description: Node struct to contain a void pointer
-                 to the value stored and a pointer
-                 to the next node in the stack.
+    Description: Node struct to contain an integer for
+                the value stored and a pointer
+                to the next node in the stack.
     */
     int value;
     struct Node *next;

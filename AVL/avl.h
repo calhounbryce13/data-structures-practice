@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <assert.h>
 
-#define TYPE int
-
 
 
 struct Node{
@@ -13,7 +11,7 @@ struct Node{
     int height;
     struct Node* left;
     struct Node* right;
-    TYPE val;
+    void* val;
 };
 
 
@@ -22,3 +20,22 @@ struct AVL{
     struct Node* root;
 
 };
+
+
+int max(int, int);
+
+int h(struct Node*);
+
+int setHeight(struct Node*);
+
+struct Node* rotateRight(struct Node*);
+
+struct Node* rotateLeft(struct Node);
+
+struct Node* rotateLeftRight(struct Node*);
+
+struct Node* rotateRightLeft(struct Node*);
+
+struct Node* balanceNode(struct Node*);
+
+struct Node* balanceTree(struct Node*);

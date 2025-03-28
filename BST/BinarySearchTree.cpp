@@ -13,7 +13,6 @@ class node{
     /*
     DESCRIPTION: Class definition for an individual node in the binary search tree.
     */
-
     // access specifier
     private:
 
@@ -24,19 +23,15 @@ class node{
     node *left;
     node *right;
 
-
     // accessor
     int get_value(){
-
         return this->value;
     }
 
     // mutator
     void set_value(int value){
-
         this->value = value;
     }
-
 };
 
 class binary_search_tree{
@@ -76,7 +71,6 @@ class binary_search_tree{
             return this->numNodes;
         }
 
-
         // mutators
         void set_numNodes(int value){
             this->numNodes = value;
@@ -86,8 +80,6 @@ class binary_search_tree{
         void inc_numNodes(){
             this->numNodes++;
         }
-    
-
 };
 
 

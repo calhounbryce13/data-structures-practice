@@ -17,6 +17,11 @@ table of contents:
 
   language(s):
     [c, python]
+
+  Double-ended Queue->
+
+  language(s):
+    [java, c]
       
   Stack->
   
@@ -38,7 +43,7 @@ table of contents:
   Dynamic Array->
 
   language(s):
-    [python]
+    [python, c]
 
   Static Array->
 

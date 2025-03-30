@@ -8,8 +8,6 @@ Author: Bryce Calhoun
 #include <assert.h>
 #include "DynArr.h"
 
-
-
 struct DynArr* DynArr_init(int cap){
     if(cap <= 0) return NULL;
     struct DynArr* array = (struct DynArr*)malloc(sizeof(struct DynArr));

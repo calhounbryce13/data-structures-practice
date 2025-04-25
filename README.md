@@ -1,7 +1,6 @@
                                                       DATA STRUCTURES PLAYGROUND
                                                       
-description: This repository will be used to store various data strcutres 
-             that I use for other projects and things I make.
+A fun place to practice implementing a lot of the abstract data types and other structures I have learned.
 --------------------------------------------------------------------------
 
 

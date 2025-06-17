@@ -7,6 +7,12 @@
 
 ## table of contents:
 -------------------------------------------
+
+  ### Dictionary/Hash table->
+
+  language(s):
+    [c]
+    
   ### BINARY SEARCH TREE->
   
   language(s):

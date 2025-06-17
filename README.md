@@ -1,50 +1,50 @@
-                                                      DATA STRUCTURES PLAYGROUND
+                                                      # DATA STRUCTURES PLAYGROUND
                                                       
-A fun place to practice implementing a lot of the abstract data types and other structures I have learned.
+## A fun place to practice implementing a lot of the abstract data types and other structures I have learned.
 --------------------------------------------------------------------------
 
 
 
-table of contents:
+## table of contents:
 -------------------------------------------
-  BINARY SEARCH TREE->
+  ### BINARY SEARCH TREE->
   
   language(s):
     [c++]
 
-  QUEUE->
+  ### QUEUE->
 
   language(s):
     [c, python]
 
-  DOUBLE-ENDED QUEUE->
+  ### DOUBLE-ENDED QUEUE->
 
   language(s):
     [java, c]
       
-  STACK->
+  ### STACK->
   
   language(s):
     [c, python]
     
-  LINKED LIST->
+  ### LINKED LIST->
   
-  Singly->
+  #### Singly->
     
   language(s):
     [c, python]
   
-  Doubly->
+  #### Doubly->
   
   language(s):
     [python, java]
 
-  DYNAMIC ARRAY->
+  ### DYNAMIC ARRAY->
 
   language(s):
     [python, c]
 
-  STATIC ARRAY->
+  ### STATIC ARRAY->
 
   language(s):
     [python, c, c++]

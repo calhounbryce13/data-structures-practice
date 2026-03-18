@@ -54,24 +54,7 @@ class LinkedList {
 };
 
 
-
-const main = function(){
-    const list = new LinkedList();
-
-    console.log(list.get_size());
-
-    list.add_front(10);
-    list.add_front(20);
-    list.add_front(30);
-
-    console.log(list.get_size());
-    console.log(list.get_head().get_next().get_value());
-
-    list.remove_front();
-
-    console.log(list.get_size());
-    console.log(list.get_head().get_next().get_value());
-}
+const main = function(){}
 
 
 main();

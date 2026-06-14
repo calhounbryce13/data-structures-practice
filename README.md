@@ -1,12 +1,7 @@
-                                                      # DATA STRUCTURES PLAYGROUND
-                                                      
-                                                      
-                                                      #### (THIS PROGRAM/APP WAS NOT MADE WITH ANY CODE THAT WAS GENERATED FROM A LARGE LANGUAGE MODEL, EX. CHATGPT, COPILOT).
+# My Personal Data Structures Playground
 
-
-## A fun place to practice implementing a lot of the abstract data types and other structures I have learned.
+## A fun place to practice implementing a lot of the abstract data types and other structures I learned.
 --------------------------------------------------------------------------
-
 
 
 ## table of contents:

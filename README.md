@@ -9,48 +9,34 @@
 
   ### Dictionary/Hash table->
 
-    [c]
+  [c]
     
   ### BINARY SEARCH TREE->
   
-    [c++]
+  [c++]
 
   ### QUEUE->
-
-  language(s):
-    [c, python]
+  [c, python]
 
   ### DOUBLE-ENDED QUEUE->
-
-  language(s):
-    [java, c]
+  [java, c]
       
   ### STACK->
-  
-  language(s):
-    [c, python]
+  [c, python]
     
   ### LINKED LIST->
   
   #### Singly->
-    
-  language(s):
-    [c, python]
+  [c, python]
   
   #### Doubly->
-  
-  language(s):
-    [python, java]
+  [python, java]
 
   ### DYNAMIC ARRAY->
-
-  language(s):
-    [python, c]
+  [python, c]
 
   ### STATIC ARRAY->
-
-  language(s):
-    [python, c, c++]
+  [python, c, c++]
 
 
     
